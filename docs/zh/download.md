@@ -1,6 +1,6 @@
 ---
-title: PakePlus
-titleTemplate: 网站秒变桌面应用和手机应用 | 下载地址
+title: PakePlus 下载
+titleTemplate: 网站变应用工具 | 最新下载地址
 layout: page
 ---
 

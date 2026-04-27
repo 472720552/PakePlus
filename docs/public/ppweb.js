@@ -65,12 +65,13 @@ const initNotes = async () => {
         (ppnotesJsonData.webShow && ppPathName === '/zh/') ||
         ppPathName === '/'
     ) {
-        createNotes(
-            titleValue,
-            contentValue,
-            okTextValue,
-            ppnotesJsonData.openUrl
-        )
+        contentValue &&
+            createNotes(
+                titleValue,
+                contentValue,
+                okTextValue,
+                ppnotesJsonData.openUrl
+            )
     } else {
         console.log('ppnotesJsonData.show is false')
     }
